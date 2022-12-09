@@ -1,0 +1,106 @@
+// media query
+@media(max-width:1382px){
+    .navbar-nav {
+        margin-left: 0px!important;
+        li{
+            padding-inline:0px!important;
+        }
+        .nav-link{
+            color:var(--black);
+            font-size: 1.1rem!important;
+        }
+    }
+}
+@media(max-width:991px){
+    .header img{
+        width: 75%!important;
+    }
+
+    .team{
+        .media{
+            width: 95%;
+        }
+    }
+}
+
+@media(max-width:767px){
+    .team{
+        .media{
+            width: 63%;
+        }
+    }
+
+    .client{
+        .carousel-indicators{
+            top:105%;
+        }
+    }
+
+    .footer{
+        margin-top: 11%!important;
+
+        .container-fluid{
+            .col-lg-3{
+                padding-top: 3rem!important;
+            }
+
+            .items{
+                margin-top: 1.5rem!important;
+            }
+        }
+
+     
+       
+    }
+}
+
+@media(max-width:403px){
+    .client{
+        .carousel-indicators{
+            top:264px;
+        }
+    }
+
+    html{
+        font-size: 5px;
+    }
+
+
+
+}
+@media(max-width:306px){
+    .client{
+        .carousel-indicators{
+            top:350px;
+        }
+    }
+}
+
+
+
+@media(max-width:649px){
+    html{
+        font-size: 10px!important;
+    }
+
+    .footer{
+        .items{
+            p{
+                margin-top: -12px;
+            }
+        }
+    } 
+}
+
+@media(max-width:486px){
+    .footer{
+        .items{
+            p{
+                line-height: 20px!important;
+                margin-top: 5px;
+            }
+        }
+    } 
+
+}
+
